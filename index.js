@@ -6,7 +6,9 @@ const router = require("./routers/router");
 const cors = require("cors");
 require("dotenv").config();
 const PORT = process.env.SERVER_PORT || 5000;
-const URI = process.env.DB_URL + "/petscan";
+const URI =
+  "mongodb+srv://saimonsiddiquee:saimonsiddiquee@mycluster.8xlvkma.mongodb.net" +
+  "/petscan";
 
 const app = express();
 
